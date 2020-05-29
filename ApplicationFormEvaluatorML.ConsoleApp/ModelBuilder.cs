@@ -12,8 +12,8 @@ namespace ApplicationFormEvaluatorML.ConsoleApp
 {
     public static class ModelBuilder
     {
-        private static string TRAIN_DATA_FILEPATH = @"..\..\ApplicationFormEvaluator\Data\output.csv";
-        private static string MODEL_FILEPATH = @"..\..\ApplicationFormEvaluatorML.Model\MLModel.zip";
+        private static string TRAIN_DATA_FILEPATH = @"..\ApplicationFormEvaluator\Data\output.csv";
+        private static string MODEL_FILEPATH = @"..\ApplicationFormEvaluatorML.Model\MLModel.zip";
         // Create MLContext to be shared across the model creation workflow objects 
         // Set a random seed for repeatable/deterministic results across multiple trainings.
         private static MLContext mlContext = new MLContext(seed: 1);

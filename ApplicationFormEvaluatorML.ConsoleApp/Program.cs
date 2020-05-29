@@ -11,7 +11,7 @@ namespace ApplicationFormEvaluatorML.ConsoleApp
     class Program
     {
         //Dataset to use for predictions 
-        private const string DATA_FILEPATH = @"..\..\ApplicationFormEvaluator\Data\output.csv";
+        private const string DATA_FILEPATH = @"..\ApplicationFormEvaluator\Data\output.csv";
 
         static void Main(string[] args)
         {
